@@ -1,0 +1,40 @@
+.register-card {
+  background-color: #333333;
+  width: 400px;
+  padding: 10px 50px;
+  border-radius: 20px;
+}
+
+.register-box {
+  position: relative;
+  top: 100px;
+}
+
+::ng-deep {
+  .mat-form-field-appearance-legacy .mat-form-field-infix {
+    padding: 14px 0 0 0;
+    margin: 0 0 5px 5px;
+  }
+}
+
+input {
+  caret-color: #ffffff !important;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+  /*change color of label*/
+  color: #ffffff !important;
+}
+
+::ng-deep.mat-form-field-underline {
+  /*change color of underline*/
+  background-color: #ffffff !important;
+}
+
+::ng-deep.mat-form-field-ripple {
+  /*change color of underline when focused*/
+  background-color: #DB3138 !important;
+  //background: none !important;
+}
+
+

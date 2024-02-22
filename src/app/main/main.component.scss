@@ -1,0 +1,167 @@
+.background-box {
+  background-image: url("../../assets/bg-main.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+
+.logo {
+  font-size: 150px;
+  color: #DB3138;
+}
+
+.sub-logo {
+  font-size: 40px;
+  text-align: center;
+  max-width: 90%;
+}
+
+.info_address {
+  color: #DB3138;
+  //max-width: 60%;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 100px;
+}
+
+.info {
+  text-align: center;
+  padding: 25px 0;
+}
+
+.info__about {
+  text-align: center;
+  color: #DB3138;
+}
+
+.info-box {
+  width: 640px;
+  border: #898989 1px solid;
+}
+
+.about__achievements {
+  max-width: 600px;
+}
+
+.grid__table {
+  display: grid;
+  grid-template-columns: 330px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+
+  h2 {
+    color: #DB3138;
+    font-size: 42px;
+  }
+}
+
+.table-position {
+  position: relative;
+  top: 60px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  border: 1px solid var(--border, #898989);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+}
+
+.div2 {
+  grid-area: 2 / 1 / 3 / 2;
+  border: 1px solid var(--border, #898989);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+}
+
+.div3 {
+  grid-area: 3 / 1 / 4 / 2;
+  border: 1px solid var(--border, #898989);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+}
+
+.div4 {
+  grid-area: 4 / 1 / 5 / 2;
+  border: 1px solid var(--border, #898989);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+}
+
+.div5 {
+  grid-area: 1 / 1 / 2 / 2;
+  border: 1px solid var(--border, #898989);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+}
+
+.div6 {
+  grid-area: 2 / 1 / 3 / 2;
+  border: 1px solid var(--border, #898989);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+}
+
+.div7 {
+  grid-area: 3 / 1 / 4 / 2;
+  border: 1px solid var(--border, #898989);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+}
+
+.div8 {
+  grid-area: 4 / 1 / 5 / 2;
+  border: 1px solid var(--border, #898989);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+}
+
+.cup-img {
+  max-width: 30px;
+  text-align: center;
+}
+
+.main-box-table {
+  padding: 200px 0;
+}
+
+.about__box {
+  width: 526px;
+  margin: 180px 0;
+}
+
+.about__box_img {
+  margin: 0 15px;
+  width: 70px;
+  height: 70px;
+}
+
+.about__box_proposal {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.about__box_content {
+  margin: 40px 0;
+}
+
+.about__box_right-image {
+  width: 640px;
+}
+
+.carousel-about {
+  width: 500px;
+}
+

@@ -1,0 +1,35 @@
+<div class="flex flex-align-items-center flex-justify-content-center flex-direction-column register-box">
+  <div class="register-card">
+    <div class="mat-card-title">
+      <h1>Register form</h1>
+    </div>
+    <form class="flex flex-direction-column" [formGroup]="registerForm">
+      <mat-form-field>
+        <mat-icon matPrefix>email</mat-icon>
+        <div class="">
+          <input matInput required placeholder="@email" formControlName="email"
+                 [class.invalid]="registerForm.get('email')?.invalid &&
+                                         (registerForm.get('email')?.dirty || registerForm.get('email')?.touched)">
+        </div>
+        <mat-error>incorrect @mail</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-icon matPrefix>lock_outline</mat-icon>
+        <div class="">
+          <input matInput required placeholder="password" formControlName="password"
+                 [class.invalid]="registerForm.get('password')?.invalid &&
+                                         (registerForm.get('password')?.dirty || registerForm.get('password')?.touched)">
+        </div>
+        <mat-error>incorrect password</mat-error>
+      </mat-form-field>
+    </form>
+    <div class="flex">
+      <div class="">
+        <button mat-button [disabled]="registerForm.invalid" (click)="Register()"><h2>submit</h2></button>
+      </div>
+      <div class="">
+        <button mat-button (click)="Cancel()"><h2>cancel</h2></button>
+      </div>
+    </div>
+  </div>
+</div>

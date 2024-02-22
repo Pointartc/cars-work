@@ -1,0 +1,58 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input {
+  all: unset;
+  background: none;
+  width: 306px;
+  height: 47px;
+  border: solid 1px #898989;
+  padding: 10px;
+}
+
+input:hover {
+  border: #DB3138 solid 1px ;
+}
+
+textarea {
+  padding: 10px;
+  all: unset;
+  width: 526px;
+  height: 150px;
+  background: none;
+  border: #898989 solid 1px;
+}
+
+textarea:hover {
+  border: #DB3138 1px solid;
+}
+
+.input-box__element {
+  margin: 5px;
+}
+
+.messengers__elements {
+  margin: 5px 5px 5px 5px;
+}
+
+.feedback-form {
+  margin: 0 0 100px 0;
+}
+
+img {
+  width: 40px;
+}
+
+.link {
+  border: #898989 solid 1px;
+  //margin: 5px 0 0 0;
+}
+.button-feedback {
+  margin: 0;
+}
+
+.feedback-img {
+  width: 25px;
+}

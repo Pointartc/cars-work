@@ -1,0 +1,44 @@
+<form [formGroup]="feedback">
+  <div class="flex flex-direction-column feedback-form">
+    <div class="flex input-box">
+      <div class="input-box__element">
+        <input required formControlName="name" type="text" placeholder="name">
+      </div>
+      <div class="input-box__element">
+        <input required formControlName="phone" type="number" placeholder="phone">
+      </div>
+    </div>
+    <div class="flex flex-justify-content-between">
+      <div class="input-box__element">
+        <textarea required formControlName="questions" placeholder="questions"></textarea>
+      </div>
+      <div class="flex flex-direction-column flex-justify-content-around messengers__elements">
+        <div class="link"><a href="https://www.instagram.com/"> <img src="assets/insta.svg" alt=""></a></div>
+        <div class="link"><a href="https://www.youtube.com/"> <img src="assets/youTube.svg" alt=""></a></div>
+        <div class="link"><a href="https://web.telegram.org/a/"> <img src="assets/telegram.svg" alt=""></a></div>
+      </div>
+    </div>
+    <div class="flex flex-justify-content-between messengers__elements">
+      <div class="main-button button-feedback">
+        <button mat-button (click)="onSubmit()"><span>Submit</span></button>
+      </div>
+      <div class="flex-justify-content-between">
+        <div class="flex flex-align-items-center">
+          <div class=""><img class="feedback-img" src="assets/location.svg" alt=""></div>
+          <div class="">Eu faucibus et rutrum fringilla orci nunc</div>
+        </div>
+        <div class="flex flex-justify-content-between">
+          <div class="flex flex-align-items-center">
+            <div class=""><img class="feedback-img" src="assets/phone.svg" alt=""></div>
+            <div class="">(555) 123-4567</div>
+          </div>
+          <div class="flex flex-align-items-center">
+            <div class=""><img class="feedback-img" src="assets/mail.svg" alt=""></div>
+            <div class="">test@test.com</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
